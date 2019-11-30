@@ -1,0 +1,32 @@
+{
+  "name": "redux-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "lint": "eslint --ext .js,.jsx .",
+    "lint:fix": "eslint --fix --ext .js,.jsx .",
+    "pretty": "prettier --write **/*.{css,html,js,json,jsx}"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "babel-loader": "8.0.6",
+    "redux": "4.0.4",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-eslint-comments": "3.1.2",
+    "eslint-plugin-prettier": "3.1.1",
+    "husky": "3.1.0",
+    "lint-staged": "9.4.3",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1"
+  }
+}
