@@ -1,4 +1,4 @@
-#Proyecto basado en Redux 😁
+## Basado en Redux 😁
 
 Este proyecto se creó con [Redux](https://github.com/reduxjs/redux).
 
